@@ -4,53 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alegria de pular</title>
-
-    <style>
-
-        body{
-            background-image: url(imagens/background.png);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-
-        .principal{
-            background-image: url(imagens/alegria-pricipal-removebg-preview.png);
-            height: 308px;
-            width: 100%;
-            max-width: 668px;
-            margin: auto;
-            background-size: cover;
-            background-position: center;
-        }
-
-        @media(max-width: 600px){
-            .principal{
-                background-image: url(imagens/alegria-pricipal-pequno.png);
-                height: 215px;
-            }
-        }
-
-        .container{
-            display: flex;
-            align-items: center;
-            padding-top: 10px;
-        }
-
-        .texto{
-            margin-right: 20px;
-            font-size: 18px;
-        }
-
-        .foto{
-            max-width: 250px;
-            border-radius: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <div class="principal"></div>
     </header>
@@ -59,21 +16,21 @@
         <div class="container">
             <div class="texto">
                 <h2>Tia Pipoca</h2>
-                <p>Sou a Débora Cazaroto dos Reis, mas muitos me
-                    conhece como Tia pipoca e Dedé.
-                    Sou Kidcoach, Analista de Mapeamento de Perfil
-                    Comportamental - Profiler, graduanda em pedagogia e
-                    babá. Tenho 23 anos e sou CEO da Alegrias de Pular
-                    desde 2021.
-                    Trabalho desde 2017 com crianças, e o meu talento em
-                    recreação foi descoberto após a pandemia quando, no
-                    condomínio em que atuo desde os 16 anos de idade,
-                    fechou a área de lazer temporário, e as crianças não
-                    tinham mais onde brincar, então, a partir disso, que
-                    comecei a passar de casa em casa para podermos
-                    brincar em ruas. Até que uma mãe, interessada no meu
-                    serviço, me convidou a fazer recreação em dias fixos, e
-                    através deste convite a recreação faz parte da minha
+                <p>Sou a Débora Cazaroto dos Reis, mas muitos me 
+                    conhece como Tia pipoca e Dedé. 
+                    Sou Kidcoach, Analista de Mapeamento de Perfil 
+                    Comportamental - Profiler, graduanda em pedagogia e 
+                    babá. Tenho 23 anos e sou CEO da Alegrias de Pular 
+                    desde 2021. 
+                    Trabalho desde 2017 com crianças, e o meu talento em 
+                    recreação foi descoberto após a pandemia quando, no 
+                    condomínio em que atuo desde os 16 anos de idade, 
+                    fechou a área de lazer temporário, e as crianças não 
+                    tinham mais onde brincar, então, a partir disso, que 
+                    comecei a passar de casa em casa para podermos 
+                    brincar em ruas. Até que uma mãe, interessada no meu 
+                    serviço, me convidou a fazer recreação em dias fixos, e 
+                    através deste convite a recreação faz parte da minha 
                     vida.
                     </p>
             </div>
@@ -135,18 +92,26 @@
             </p>
         </div>
 
-        <div class="texto">
-            <h1>Espaço Kids</h1>
-            <p> O que é espaço Kids? O espaço Kids
-                é aquele cantinho que tem todos os
-                brinquedos, livros e acessórios para
-                as crianças brincarem.
-                O objetivo do ambiente é de
-                estimular o desenvolvimento criativo
-                e cognitivo dos pequenos, além de
-                ser uma ótima opção para entretêlos.
-                Gratuito para aniversariantes de 1 ano e 2 anos</p>
+        <div class="container">
+            <div class="texto">
+                <h1>Espaço Kids</h1>
+                <p> O que é espaço Kids? O espaço Kids
+                    é aquele cantinho que tem todos os
+                    brinquedos, livros e acessórios para
+                    as crianças brincarem.
+                    O objetivo do ambiente é de
+                    estimular o desenvolvimento criativo
+                    e cognitivo dos pequenos, além de
+                    ser uma ótima opção para entretêlos.
+                    </p>
+            </div>
+            <img src="imagens/criancada-removebg-preview.png" alt="foto-da-criacada" class="foto">
         </div>
+
+        <footer>
+            <p>Visite nosso <a href="https://www.instagram.com/alegriadepulareko/" target="_blank">Instagram</a> para mais informações!</p>
+            <p>Site criado por alunos da <a href="https://fatecriopreto.edu.br/" target="_blank">Faculdade de Tecnologia de São José do Rio Preto</a></p>
+        </footer>
     </main>
 </body>
 </html>
