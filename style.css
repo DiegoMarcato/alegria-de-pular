@@ -4,6 +4,44 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    transition: background 0.3s;
+  }
+  .tab:hover {
+    background: #ddd;
+  }
+  /* Caixa para o conteúdo das abas */
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+  }
+  /* Mostrar conteúdo ativo */
+  input[type="radio"]:checked + label {
+    background: #ffffff;
+    font-weight: bold;
+    color: #333;
+  }
+  input[type="radio"]:checked + label + .tab-content {
+    display: block;
+  }
+  /* Esconder inputs de radio */
+  input[type="radio"] {
+    display: none;
+  }
+
 body{
         
     background-image: url(imagens/background.png);
