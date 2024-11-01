@@ -1,204 +1,321 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alegria de pular</title>
-    <link rel="stylesheet" href="style.css">
+    
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300&display=swap" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
-</head>
-<body>
-
+  </head>
+  <body class="bg-[url('imagens/background.png')] bg-cover bg-center bg-no-repeat bg-fixed font-['Rubik'] ">
     <header class="w-full px-20 py-10">
-        <!-- <div class="principal"></div> -->
-         <div class="flex w-full justify-between">
-            
-             <img src="imagens/alegria-pricipal-removebg-preview.png" alt="" class="w-40 h-20">
+      <div class="flex w-full justify-between">
+        <img
+          src="imagens/alegria-pricipal-removebg-preview.png"
+          alt=""
+          class="w-40 h-20"
+        />
 
-
-     
-            
-
-             <!-- <div class="w-full text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700"> -->
-                 <ul class="flex flex-wrap -mb-px">
-                     <li class="me-2">
-                         <button onclick="homeClick()" id="home-btn" for="tab1" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700">Inicio</button>
-                     </li>
-                     <li class="me-2">
-                         <button onclick="servicesClick()" id="services-btn" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700">Serviços</button>
-                     </li>
-                     <li class="me-2">
-                         <button onclick="aboutClick()" id="about-btn"  class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700">Sobre</button>
-                     </li>
-                 </ul>
-             <!-- </div> -->
-         </div>
-
-
+        <!-- <div class="w-full text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700"> -->
+        <ul class="flex flex-wrap -mb-px">
+          <li class="me-2">
+            <button
+              onclick="homeClick()"
+              id="home-btn"
+              for="tab1"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+            >
+              Inicio
+            </button>
+          </li>
+          <li class="me-2">
+            <button
+              onclick="servicesClick()"
+              id="services-btn"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+            >
+              Serviços
+            </button>
+          </li>
+          <li class="me-2">
+            <button
+              onclick="aboutClick()"
+              id="about-btn"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+            >
+              Sobre
+            </button>
+          </li>
+        </ul>
+        <!-- </div> -->
+      </div>
     </header>
 
     <main class="px-20 w-full">
-        <div class="hidden flex justify-between w-full" id="home">
-
+      <div class="hidden flex justify-between w-full" id="home">
         <div id="parte-esquerda" class="h-full flex flex-col w-2/5">
-            <span class="text-5xl mb-2 font-semibold">Alegria de Pular</span>
-            <span class="text-2xl mb-7 font-medium">Garanta sua diversão e faça parte das nossas atividades recreativas.</span>
-            <span class="text-lg">Ideal para as crianças se divertirem e explorarem sua criatividade. Com uma variedade de brinquedos, atividades lúdicas e um ambiente seguro, oferecendo momentos de alegria e interação.</span>
-            <span class="text-lg">Nós vamos até você! Seja em sua casa, jardim, salão de festas ou em qualquer outro local de sua preferência, estamos prontos para criar um ambiente mágico e seguro para que os pequenos brinquem e aprendam.
-                Então, se você procura uma experiência de festa única e memorável, você já sabe: Alegria De Pular é a escolha certa.</span>
-            
+          <span class="text-5xl mb-2 font-semibold">Alegria de Pular</span>
+          <span class="text-2xl mb-7 font-medium"
+            >Garanta sua diversão e faça parte das nossas atividades
+            recreativas.</span
+          >
+          <span class="text-lg"
+            >Ideal para as crianças se divertirem e explorarem sua criatividade.
+            Com uma variedade de brinquedos, atividades lúdicas e um ambiente
+            seguro, oferecendo momentos de alegria e interação.</span
+          >
+          <span class="text-lg"
+            >Nós vamos até você! Seja em sua casa, jardim, salão de festas ou em
+            qualquer outro local de sua preferência, estamos prontos para criar
+            um ambiente mágico e seguro para que os pequenos brinquem e
+            aprendam. Então, se você procura uma experiência de festa única e
+            memorável, você já sabe: Alegria De Pular é a escolha certa.</span
+          >
         </div>
 
         <div id="parte-das-fotos" class="flex items-end flex-col w-3/5 gap-4">
-            <div class="flex gap-4">
-                <img class="size-64 rounded-md" src="imagens/parabens.jpg" alt="">
-                <img class="size-64 rounded-md" src="imagens/joia.jpg" alt="">
-                <img class="size-64 rounded-md" src="imagens/bmw.jpg" alt="">
+          <div class="flex gap-4">
+            <img class="size-64 rounded-md" src="imagens/parabens.jpg" alt="" />
+            <img class="size-64 rounded-md" src="imagens/joia.jpg" alt="" />
+            <img class="size-64 rounded-md" src="imagens/bmw.jpg" alt="" />
+          </div>
+
+          <div class="flex gap-4">
+            <img class="size-64 rounded-md" src="imagens/princesa.jpg" alt="" />
+            <img class="size-64 rounded-md" src="imagens/sereia.jpg" alt="" />
+            <img class="size-64 rounded-md" src="imagens/sorriso.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="services" class="w-full flex flex-col">
+        <span class="text-5xl mb-7 font-semibold">Nossos serviços</span>
+
+        <div class="flex mb-7">
+          <div class="grid grid-cols-3 gap-4 w-3/5">
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Oficina de massinha</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Uma atividade divertida e criativa, onde as crianças podem
+                  explorar a imaginação criando formas e personagens com
+                  massinha colorida. A oficina estimula a coordenação motora e a
+                  expressão artística.
+                </span>
+              </div>
+              <img src="imagens/massinha.png" alt="massinha" class="size-20" />
             </div>
 
-            <div class="flex gap-4">
-                <img class="size-64 rounded-md" src="imagens/princesa.jpg" alt="">
-                <img class="size-64 rounded-md" src="imagens/sereia.jpg" alt="">
-                <img class="size-64 rounded-md" src="imagens/sorriso.jpg" alt="">
-            </div>
-        </div>
-        </div>
-
-        <div id="services" class="w-full flex flex-col">
-            <span class="text-5xl mb-7 font-semibold">Nossos serviços</span>
-
-            <div class="flex mb-7">
-
-                <div class="grid grid-cols-3 gap-4 w-3/5">
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Oficina de massinha</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Uma atividade divertida e criativa, onde as crianças podem explorar a imaginação criando formas e personagens com massinha colorida. A oficina estimula a coordenação motora e a expressão artística.
-                            </span>
-                        </div>
-                        <img src="imagens/massinha.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Esculturas de gesso</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Os pequenos terão a oportunidade de fazer esculturas em gesso, moldando figuras e decorando-as com pintura. Uma experiência única para explorar texturas e cores, levando para casa suas próprias obras de arte.
-                            </span>
-                        </div>
-                        <img src="imagens/escultura.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Pinturas faciais</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Transforme-se em um personagem! Com tintas seguras e à base de água, as crianças podem escolher desenhos coloridos para o rosto, ganhando asas de borboleta, máscara de super-herói, e muito mais.
-                            </span>
-                        </div>
-                        <img src="imagens/pintura-facial.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Bexigas personalizadas</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Um serviço de criação de bexigas customizadas com temas divertidos. Seja com o nome da criança ou com figuras únicas, as bexigas trazem um toque especial para o evento.
-                            </span>
-                        </div>
-                        <img src="imagens/baloes.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Bolha de sabão gigante</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Fascinante e lúdico, o show de bolhas gigantes encanta crianças e adultos, criando um espetáculo visual com bolhas que podem ser interativas.
-                            </span>
-                        </div>
-                        <img src="imagens/bolha.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Caça ao tesouro</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Uma aventura guiada com mapas e pistas para encontrar um “tesouro” escondido. Perfeita para estimular a curiosidade, trabalho em equipe e espírito explorador dos pequenos.
-                            </span>
-                        </div>
-                        <img src="imagens/tesouro.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Circuito</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Atividade física e divertida com obstáculos e desafios em um circuito projetado para todas as idades. Promove a agilidade e a diversão em um ambiente seguro e supervisionado.
-                            </span>
-                        </div>
-                        <img src="imagens/circuito.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Gincana</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Jogos e desafios em grupo que incentivam a cooperação e o espírito de equipe. Uma forma dinâmica de garantir a diversão e a interação entre as crianças.
-                            </span>
-                        </div>
-                        <img src="imagens/gincana.png" alt="massinha" class="size-20">
-                    </div>
-
-                    <div class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-semibold text-black">Diversas brincadeiras</span>
-                            <span class="text-md font-medium text-neutral-100">
-                                Uma variedade de jogos e atividades tradicionais e modernos que garantem a diversão contínua, criando momentos de risadas e novas amizades.
-                            </span>
-                        </div>
-                        <img src="imagens/brincadeiras.png" alt="massinha" class="size-20">
-                    </div>
-
-                </div>
-
-                <div class="w-2/5 flex justify-center">
-                    <div class="relative py-32 flex flex-col items-center">
-                        <div class="flex gap-4">
-                            <img src="imagens/brinca.jpg" alt="brinca muito" class="size-80 rounded-md">
-                            <img src="imagens/bola.jpg" alt="bola" class="size-80 rounded-md">
-                        </div>
-                        <img src="imagens/linda.jpg" alt="cara pintada" class="size-80 rounded-md absolute bottom-20">
-                    </div>
-                </div>
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Esculturas de gesso</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Os pequenos terão a oportunidade de fazer esculturas em gesso,
+                  moldando figuras e decorando-as com pintura. Uma experiência
+                  única para explorar texturas e cores, levando para casa suas
+                  próprias obras de arte.
+                </span>
+              </div>
+              <img src="imagens/escultura.png" alt="massinha" class="size-20" />
             </div>
 
-            <span class="text-4xl mb-7 font-medium">Espaço Kids</span>
-
-            <div class="flex w-full flex-col gap-4">
-                    <span class="text-xl">
-                         O espaço Kids
-                        é aquele cantinho que tem todos os
-                        brinquedos, livros e acessórios para
-                        as crianças brincarem.
-                        O objetivo do ambiente é de
-                        estimular o desenvolvimento criativo
-                        e cognitivo dos pequenos, além de
-                        ser uma ótima opção para entretêlos.
-                    </span>
-                    
-                    <video width="320" height="240" controls class="rounded-md">
-                        <source src="imagens/espaco-kids.mp4" type="video/mp4">
-                        Seu navegador não suporta este vídeo.
-                    </video>
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Pinturas faciais</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Transforme-se em um personagem! Com tintas seguras e à base de
+                  água, as crianças podem escolher desenhos coloridos para o
+                  rosto, ganhando asas de borboleta, máscara de super-herói, e
+                  muito mais.
+                </span>
+              </div>
+              <img
+                src="imagens/pintura-facial.png"
+                alt="massinha"
+                class="size-20"
+              />
             </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Bexigas personalizadas</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Um serviço de criação de bexigas customizadas com temas
+                  divertidos. Seja com o nome da criança ou com figuras únicas,
+                  as bexigas trazem um toque especial para o evento.
+                </span>
+              </div>
+              <img src="imagens/baloes.png" alt="massinha" class="size-20" />
+            </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Bolha de sabão gigante</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Fascinante e lúdico, o show de bolhas gigantes encanta
+                  crianças e adultos, criando um espetáculo visual com bolhas
+                  que podem ser interativas.
+                </span>
+              </div>
+              <img src="imagens/bolha.png" alt="massinha" class="size-20" />
+            </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Caça ao tesouro</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Uma aventura guiada com mapas e pistas para encontrar um
+                  “tesouro” escondido. Perfeita para estimular a curiosidade,
+                  trabalho em equipe e espírito explorador dos pequenos.
+                </span>
+              </div>
+              <img src="imagens/tesouro.png" alt="massinha" class="size-20" />
+            </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black">Circuito</span>
+                <span class="text-md font-medium text-neutral-100">
+                  Atividade física e divertida com obstáculos e desafios em um
+                  circuito projetado para todas as idades. Promove a agilidade e
+                  a diversão em um ambiente seguro e supervisionado.
+                </span>
+              </div>
+              <img src="imagens/circuito.png" alt="massinha" class="size-20" />
+            </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black">Gincana</span>
+                <span class="text-md font-medium text-neutral-100">
+                  Jogos e desafios em grupo que incentivam a cooperação e o
+                  espírito de equipe. Uma forma dinâmica de garantir a diversão
+                  e a interação entre as crianças.
+                </span>
+              </div>
+              <img src="imagens/gincana.png" alt="massinha" class="size-20" />
+            </div>
+
+            <div
+              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+            >
+              <div class="flex flex-col">
+                <span class="text-xl font-semibold text-black"
+                  >Diversas brincadeiras</span
+                >
+                <span class="text-md font-medium text-neutral-100">
+                  Uma variedade de jogos e atividades tradicionais e modernos
+                  que garantem a diversão contínua, criando momentos de risadas
+                  e novas amizades.
+                </span>
+              </div>
+              <img
+                src="imagens/brincadeiras.png"
+                alt="massinha"
+                class="size-20"
+              />
+            </div>
+          </div>
+
+          <div class="w-2/5 flex justify-center">
+            <div class="relative py-32 flex flex-col items-center">
+              <div class="flex gap-4">
+                <img
+                  src="imagens/brinca.jpg"
+                  alt="brinca muito"
+                  class="size-80 rounded-md"
+                />
+                <img
+                  src="imagens/bola.jpg"
+                  alt="bola"
+                  class="size-80 rounded-md"
+                />
+              </div>
+              <img
+                src="imagens/linda.jpg"
+                alt="cara pintada"
+                class="size-80 rounded-md absolute bottom-20"
+              />
+            </div>
+          </div>
         </div>
-        
-        <div class="hidden" id="about">
-            3
+
+        <span class="text-4xl mb-7 font-medium">Espaço Kids</span>
+
+        <div class="flex w-full flex-col gap-4">
+          <span class="text-xl">
+            O espaço Kids é aquele cantinho que tem todos os brinquedos, livros
+            e acessórios para as crianças brincarem. O objetivo do ambiente é de
+            estimular o desenvolvimento criativo e cognitivo dos pequenos, além
+            de ser uma ótima opção para entretêlos.
+          </span>
+
+          <div class="flex w-full justify-between">
+            <video width="320" height="240" controls class="rounded-md">
+              <source src="imagens/espaco-kids.mp4" type="video/mp4" />
+              Seu navegador não suporta este vídeo.
+            </video>
+
+            <div class="w-full flex justify-end items-center gap-4">
+              <img
+                src="imagens/espaco04.jpg"
+                alt="brinca muito"
+                class="size-80 rounded-md"
+              />
+              <img
+                src="imagens/espaco01.jpg"
+                alt="bola"
+                class="size-80 rounded-md"
+              />
+              <img
+                src="imagens/espaco03.jpg"
+                alt="cara pintada"
+                class="size-80 rounded-md"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="hidden" id="about">3</div>
     </main>
 
     <!--Nós vamos até você! Seja em sua casa, jardim, salão de festas ou em qualquer outro local de sua preferência, estamos prontos para criar um ambiente mágico e seguro para que os pequenos brinquem e aprendam.
@@ -306,5 +423,5 @@ Então, se você procura uma experiência de festa única e memorável, você j�
             <p>Site criado por alunos da <a href="https://fatecriopreto.edu.br/" target="_blank">Faculdade de Tecnologia de São José do Rio Preto</a></p>
         </footer>
     </main> -->
-</body>
+  </body>
 </html>
