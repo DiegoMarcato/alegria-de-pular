@@ -38,7 +38,6 @@ function hideSections() {
   home.classList.add('hidden')
   services.classList.add('hidden')
   about.classList.add('hidden')
-
   
   homeBtn.classList.remove('border-blue-600')
   homeBtn.classList.remove('text-blue-600')

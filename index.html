@@ -23,7 +23,7 @@
   <body
     class="bg-[url('imagens/background.png')] bg-cover bg-center bg-no-repeat bg-fixed font-['Rubik']"
   >
-    <header class="w-full px-20 py-10">
+    <header class="w-full px-20 py-10 ">
       <div class="flex w-full justify-between">
         <img
           src="imagens/alegria-pricipal-removebg-preview.png"
@@ -32,54 +32,54 @@
         />
 
         <!-- <div class="w-full text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700"> -->
-        <ul class="flex flex-wrap -mb-px">
-          <li class="me-2">
+        <div class="flex -mb-px">
+          <div>
             <button
               onclick="homeClick()"
               id="home-btn"
               for="tab1"
-              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-md hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
             >
               Inicio
             </button>
-          </li>
-          <li class="me-2">
+          </div>
+          <div>
             <button
               onclick="servicesClick()"
               id="services-btn"
-              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-md hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
             >
               Serviços
             </button>
-          </li>
-          <li class="me-2">
+          </div>
+          <div>
             <button
               onclick="aboutClick()"
               id="about-btn"
-              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-md hover:text-blue-600 hover:border-blue-700 dark:hover:text-blue-700"
             >
               Sobre
             </button>
-          </li>
-        </ul>
+          </div>
+        </div>
         <!-- </div> -->
       </div>
     </header>
 
-    <main class="px-20 w-full">
-      <div class="hidden flex justify-between w-full" id="home">
-        <div id="parte-esquerda" class="h-full flex flex-col w-2/5">
+    <main class="px-20">
+      <div class="flex justify-between w-full" id="home">
+        <div id="parte-esquerda" class="h-full flex flex-col text-justify w-2/5">
           <span class="text-5xl mb-2 font-semibold">Alegria de Pular</span>
           <span class="text-2xl mb-7 font-medium"
             >Garanta sua diversão e faça parte das nossas atividades
             recreativas.</span
           >
-          <span class="text-lg"
+          <span class="text-md"
             >Ideal para as crianças se divertirem e explorarem sua criatividade.
             Com uma variedade de brinquedos, atividades lúdicas e um ambiente
             seguro, oferecendo momentos de alegria e interação.</span
           >
-          <span class="text-lg"
+          <span class="text-md"
             >Nós vamos até você! Seja em sua casa, jardim, salão de festas ou em
             qualquer outro local de sua preferência, estamos prontos para criar
             um ambiente mágico e seguro para que os pequenos brinquem e
@@ -103,13 +103,13 @@
         </div>
       </div>
 
-      <div id="services" class="w-full flex flex-col">
+      <div id="services" class="hidden w-full flex flex-col">
         <span class="text-5xl mb-7 font-semibold">Nossos serviços</span>
 
         <div class="flex mb-7">
           <div class="grid grid-cols-3 gap-4 w-3/5">
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -126,7 +126,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -143,7 +143,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -164,7 +164,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -180,7 +180,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -196,7 +196,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -212,7 +212,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black">Circuito</span>
@@ -226,7 +226,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black">Gincana</span>
@@ -240,7 +240,7 @@
             </div>
 
             <div
-              class="p-4 rounded-lg bg-[#6699FF] flex w-full border border-black"
+              class="p-4 rounded-md bg-[#6699FF] flex w-full border border-black"
             >
               <div class="flex flex-col">
                 <span class="text-xl font-semibold text-black"
@@ -320,142 +320,53 @@
         </div>
       </div>
 
-      <div class="hidden" id="about">
-        <span class="text-5xl mb-2 font-semibold">Tia Pipoca</span>
-        <span class="text-lg"
-          >Sou a Débora Cazaroto dos Reis, mas muitos me conhece como Tia pipoca
-          e Dedé. Sou Kidcoach, Analista de Mapeamento de Perfil Comportamental
-          - Profiler, graduanda em pedagogia e babá. Tenho 23 anos e sou CEO da
-          Alegrias de Pular desde 2021. Trabalho desde 2017 com crianças, e o
-          meu talento em recreação foi descoberto após a pandemia quando, no
-          condomínio em que atuo desde os 16 anos de idade, fechou a área de
-          lazer temporário, e as crianças não tinham mais onde brincar, então, a
-          partir disso, que comecei a passar de casa em casa para podermos
-          brincar em ruas. Até que uma mãe, interessada no meu serviço, me
-          convidou a fazer recreação em dias fixos, e através deste convite a
-          recreação faz parte da minha vida.</span
-        >
+      <div class="hidden flex flex-col gap-4" id="about">
+        <div class="flex gap-4 p-4 rounded-md bg-[#6699FF] flex w-full border border-black">
+          <div class="flex flex-col">
+            <span class="text-5xl mb-5 font-semibold">Tia Pipoca</span>
+            <span class="text-lg text-justify	text-neutral-100"
+              >Sou a Débora Cazaroto dos Reis, mas muitos me conhece como Tia pipoca
+              e Dedé. Sou Kidcoach, Analista de Mapeamento de Perfil Comportamental
+              - Profiler, graduanda em pedagogia e babá. Tenho 23 anos e sou CEO da
+              Alegrias de Pular desde 2021. Trabalho desde 2017 com crianças, e o
+              meu talento em recreação foi descoberto após a pandemia quando, no
+              condomínio em que atuo desde os 16 anos de idade, fechou a área de
+              lazer temporário, e as crianças não tinham mais onde brincar, então, a
+              partir disso, que comecei a passar de casa em casa para podermos
+              brincar em ruas. Até que uma mãe, interessada no meu serviço, me
+              convidou a fazer recreação em dias fixos, e através deste convite a
+              recreação faz parte da minha vida.</span
+            >
+          </div>
+          <img src="imagens/tia-pipoca.png" alt="tia-pipoca" class="size-80 rounded-md border border-black">
+        </div>
 
-        <span class="text-5xl mb-2 font-semibold">Tia Paçoca</span>
-        <span class="text-lg"
-          >Sou Marina Venezuela El Takche. Formada em
-          Pedagogia e cursando pós-graduação em
-          Psicopedagogia.
-          Atuo como professora em um Colégio em São
-          José do Rio Preto.
-          Desde 2015 trabalho com recreação em Buffet
-          infantil, sendo que em 2021, aos 20 anos de
-          idade abri minha própria empresa, denominada
-          Alegria de Pular, onde também sou conhecida
-          como tia Paçoca.
-          Trabalhar com entretenimento em eventos é a
-          minha maior alegria, realizar sonhos e memórias
-          em forma de brincadeiras, dando segurança e
-          conforto em um dia tão importante.</span
-        >
+        <div class="flex gap-4 p-4 rounded-md bg-[#6699FF] flex w-full border border-black">
+          <div class="flex flex-col">
+            <span class="text-5xl mb-5 font-semibold">Tia Paçoca</span>
+            <span class="text-lg text-justify	text-neutral-100"
+              >Sou Marina Venezuela El Takche. Formada em
+              Pedagogia e cursando pós-graduação em
+              Psicopedagogia.
+              Atuo como professora em um Colégio em São
+              José do Rio Preto.
+              Desde 2015 trabalho com recreação em Buffet
+              infantil, sendo que em 2021, aos 20 anos de
+              idade abri minha própria empresa, denominada
+              Alegria de Pular, onde também sou conhecida
+              como tia Paçoca.
+              Trabalhar com entretenimento em eventos é a
+              minha maior alegria, realizar sonhos e memórias
+              em forma de brincadeiras, dando segurança e
+              conforto em um dia tão importante.</span
+            >
+          </div>
+          <img src="imagens/tia-pacoca.png" alt="tia-pacoca" class="size-80 rounded-md border border-black">
+        </div>
       </div>
     </main>
 
-    <!--Nós vamos até você! Seja em sua casa, jardim, salão de festas ou em qualquer outro local de sua preferência, estamos prontos para criar um ambiente mágico e seguro para que os pequenos brinquem e aprendam.
-
-Então, se você procura uma experiência de festa única e memorável, você já sabe: Alegria De Pular é a escolha certa. Entre em contato conosco para agendar a festa dos sonhos para o seu filho(a)! 🌟-->
-
-    <!-- <main>
-        <div class="container">
-            <div class="texto">
-                <h2>Tia Pipoca</h2>
-                <p>Sou a Débora Cazaroto dos Reis, mas muitos me 
-                    conhece como Tia pipoca e Dedé. 
-                    Sou Kidcoach, Analista de Mapeamento de Perfil 
-                    Comportamental - Profiler, graduanda em pedagogia e 
-                    babá. Tenho 23 anos e sou CEO da Alegrias de Pular 
-                    desde 2021. 
-                    Trabalho desde 2017 com crianças, e o meu talento em 
-                    recreação foi descoberto após a pandemia quando, no 
-                    condomínio em que atuo desde os 16 anos de idade, 
-                    fechou a área de lazer temporário, e as crianças não 
-                    tinham mais onde brincar, então, a partir disso, que 
-                    comecei a passar de casa em casa para podermos 
-                    brincar em ruas. Até que uma mãe, interessada no meu 
-                    serviço, me convidou a fazer recreação em dias fixos, e 
-                    através deste convite a recreação faz parte da minha 
-                    vida.
-                    </p>
-            </div>
-            <img src="imagens/tia-pipoca.png" alt="tia pipoca" class="foto">
-        </div>
-
-        <div class="container">
-            <div class="texto">
-                <h2>Tia Paçoca</h2>
-                <p>Sou Marina Venezuela El Takche. Formada em
-                    Pedagogia e cursando pós-graduação em
-                    Psicopedagogia.
-                    Atuo como professora em um Colégio em São
-                    José do Rio Preto.
-                    Desde 2015 trabalho com recreação em Buffet
-                    infantil, sendo que em 2021, aos 20 anos de
-                    idade abri minha própria empresa, denominada
-                    Alegria de Pular, onde também sou conhecida
-                    como tia Paçoca.
-                    Trabalhar com entretenimento em eventos é a
-                    minha maior alegria, realizar sonhos e memórias
-                    em forma de brincadeiras, dando segurança e
-                    conforto em um dia tão importante.
-                    </p>
-            </div>
-            <img src="imagens/tia-pacoca.png" alt="tia Paçoca" class="foto">
-        </div>
-
-        <div class="texto">
-            <h2>Conheça nossos serviços</h2>
-            <ul>
-                <li>Oficina de massinha</li>
-                <li>Esculturas de gesso</li>
-                <li>Pinturas faciais</li>
-                <li>Bexigas personalizadas</li>
-                <li>Bolha de sabão gigante</li>
-                <li>Caça ao tesouro</li>
-                <li>Circuito</li>
-                <li>Gincana</li>
-                <li>Diversas brincadeiras</li>
-            </ul>
-        </div>
-
-        <div class="texto">
-            <h2>Orçamentos:</h2>
-            <p>Para até 10 crianças</p>
-            
-            <p>Até 10 crianças <br>
-                2 horas de evento <br>
-                R$ 00,00
-            </p>
-            <p>Até 10 crianças <br>
-                3 horas de evento <br>
-                R$ 00,00
-            </p>
-            <p>Até 10 crianças <br>
-                4 horas de evento <br>
-                R$ 00,00
-            </p>
-        </div>
-
-        <div class="container">
-            <div class="texto">
-                <h1>Espaço Kids</h1>
-                <p> O que é espaço Kids? O espaço Kids
-                    é aquele cantinho que tem todos os
-                    brinquedos, livros e acessórios para
-                    as crianças brincarem.
-                    O objetivo do ambiente é de
-                    estimular o desenvolvimento criativo
-                    e cognitivo dos pequenos, além de
-                    ser uma ótima opção para entretêlos.
-                    </p>
-            </div>
-            <img src="imagens/criancada-removebg-preview.png" alt="foto-da-criacada" class="foto">
-        </div>
-
+    <!--
         <footer>
             <p>Visite nosso <a href="https://www.instagram.com/alegriadepulareko/" target="_blank">Instagram</a> para mais informações!</p>
             <p>Site criado por alunos da <a href="https://fatecriopreto.edu.br/" target="_blank">Faculdade de Tecnologia de São José do Rio Preto</a></p>
